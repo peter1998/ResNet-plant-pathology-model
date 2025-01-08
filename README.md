@@ -151,3 +151,20 @@ Multiple Diseases: 14 samples
 Rust: 93 samples
 Scab: 89 samples
 
+
+# 1. Navigate to your ResNet directory (if not already there)
+cd ~/Desktop/TU\ PHD/Project\ Apple-leaves-pathology/Apple\ Pathology\ Notebooks/ResNet
+
+# 2. Activate the GPU environment
+cd resnet_gpu_env_02
+source bin/activate
+
+# 3. Return to main directory where notebook is
+cd ..
+
+# 4. Launch Jupyter notebook
+jupyter notebook
+
+# The browser will open automatically with Jupyter interface
+# Click on: 04_Plant_Pathology_Project_ResNet_SVM_RF_NG_Ina.ipynb
+
