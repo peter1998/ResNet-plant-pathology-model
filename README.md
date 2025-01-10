@@ -19,3 +19,7 @@ To convert the Jupyter notebook to a Python script, follow these steps:
 1. Open your terminal and navigate to the project directory:
    ```bash
    cd "/home/peter/Desktop/TU PHD/Project Apple-leaves-pathology/Apple Pathology Notebooks/ResNet"
+
+   Use the jupyter nbconvert command to convert your notebook:
+ ```bash
+bashCopyjupyter nbconvert --to python YOUR_NOTEBOOK.ipynb
